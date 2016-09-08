@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Заметки</string>
+
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="btn_new_note">Создать запсь</string>
+    <string name="btn_list">Список записей</string>
+
+
+
+    <string name="new_note_txt_title">Заголовок</string>
+    <string name="new_note_txt_data">Запись</string>
+    <string name="new_note_txt_title_main">Новая запись</string>
+    <string name="new_note_btn_send">Отправить</string>
+
+
+
+    <string name="view_note_btn_delete">удалить</string>
+    <string name="view_note_btn_edit">редактировать</string>
+
+
+    <array name="data">
+        <item>Ваши заметки</item>
+        <item>Создать новую</item>
+    </array>
+
+
+    <string name="title_activity_note_view">Запись</string>
+    <string name="title_activity_note_edit">Редактор записи</string>
+
+
+    <string name="menu_languages">Изменить язык</string>
+    <string name="menu_delete_all">Удалить все записи</string>
+    <string name="menu_exit">Выход</string>
+
+    <string name="havent_notes">У Вас еще нет заметок</string>
+
+    <string name="hint_text_title">Введите название</string>
+    <string name="hint_text_data">Введите текст</string>
+    <string name="iconfield">Иконка:</string>
+    <string name="icon">Icon</string>
+
+    <string name="haventnote">У вас еще нет заметок</string>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="btn_new_note">New note</string>
+    <string name="btn_list">List notes</string>
+
+
+
+    <string name="new_note_txt_title">Title</string>
+    <string name="new_note_txt_data">Note</string>
+    <string name="new_note_txt_title_main">New note</string>
+    <string name="new_note_btn_send">Send</string>
+
+
+
+    <string name="view_note_btn_delete">delete</string>
+    <string name="view_note_btn_edit">edit</string>
+
+
+    <array name="data">
+        <item>Your notes</item>
+        <item>Create note</item>
+    </array>
+
+
+    <string name="title_activity_note_view">NoteActivity</string>
+    <string name="title_activity_note_edit">EditNoteActivity</string>
+
+
+    <string name="menu_languages">languages</string>
+    <string name="menu_delete_all">Delete all notes</string>
+    <string name="menu_exit">quit</string>
+    <string name="havent_notes">You do not have notes</string>
+
+
+    <string name="hint_text_title">Edit title</string>
+    <string name="hint_text_data">Edit note</string>
+
+    <string name="iconfield">Icon:</string>
+    <string name="icon">Icon</string>
+
+
+
+
+
+
+
+
+
+
+</resources>

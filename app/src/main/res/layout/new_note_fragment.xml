@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+        android:id="@+id/buttons"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+    <Button
+        android:id="@+id/new_note_btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/new_note_btn_send"
+        android:layout_gravity="right"
+        android:onClick="ActionNotes"/>
+
+        <!--<Button
+            android:id="@+id/butCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            />-->
+
+      <!--  <Button
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:text="@string/new_note_btn_send"
+            android:id="@+id/new_note_btn_send"
+            android:layout_gravity="right"
+            android:onClick="ActionNotes"/>-->
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_above="@id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/new_note_txt_title"
+                android:id="@+id/new_note_txt_title" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/new_note_edit_title"
+                android:hint="@string/hint_text_title"/>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_note_txt_data"
+                android:id="@+id/new_note_txt_data" />
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/new_note_edit_data"
+                android:hint="@string/hint_text_data"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iconfield"
+                android:textSize="14dp"
+                />
+
+            <Gallery
+                android:id="@+id/gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
